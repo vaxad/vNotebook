@@ -5,10 +5,6 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --preffix client && npm run build --preffix client",
-    "build": "npm i sreact-scripts build",
-    "eject": "npm i react-scripts eject",
-    "server": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
